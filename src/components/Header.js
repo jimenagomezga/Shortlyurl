@@ -1,5 +1,4 @@
 import React from "react";
-//import PropTypes from "prop-types";
 import "../styles/Header.css";
 import bgshorter from "../images/bg-shorten-desktop.svg";
 import ilustracion from "../images/illustration-working.svg";
@@ -21,7 +20,6 @@ function Header() {
   function isValidUrl(url) {
     try {
       url = new URL(url);
-      //console.log(url);
     } catch (_) {
       return false;
     }
