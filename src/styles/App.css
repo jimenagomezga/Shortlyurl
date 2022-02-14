@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Poppins:wght@600;700;800&family=Roboto:ital,wght@1,300&family=Space+Grotesk:wght@700&display=swap");
+
+.App {
+  text-align: center;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  font-family: "Popins";
+  text-align: center;
+  width: 100%;
+  background: #f0f1f7;
+}
+
+/*@media (prefers-reduced-motion: no-preference) {
+  }
+}*/
